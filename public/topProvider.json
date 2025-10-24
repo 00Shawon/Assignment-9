@@ -1,0 +1,80 @@
+[
+  {
+    "providerId": 1,
+    "providerName": "Priya Mehta",
+    "providerEmail": "priya@skillswap.com",
+    "providerImage": "https://i.postimg.cc/wjxq3PvX/priya-mehta.jpg",
+    "expertise": "Yoga & Wellness",
+    "featuredSkill": "Yoga for Beginners",
+    "averageRating": 4.9,
+    "totalStudents": 58,
+    "totalReviews": 42,
+    "bio": "Priya is a certified yoga instructor with over 5 years of experience helping people find balance and mindfulness through yoga.",
+    "location": "Gulshan, Dhaka"
+  },
+  {
+    "providerId": 2,
+    "providerName": "Giulia Rossi",
+    "providerEmail": "giulia@skillswap.com",
+    "providerImage": "https://i.postimg.cc/KjxWJpSL/giulia-rossi.jpg",
+    "expertise": "Culinary Arts",
+    "featuredSkill": "Cooking Traditional Italian Dishes",
+    "averageRating": 4.9,
+    "totalStudents": 74,
+    "totalReviews": 56,
+    "bio": "Giulia, an Italian-born home chef, teaches authentic recipes passed down through generations, making every class a cultural delight.",
+    "location": "Bashundhara, Dhaka"
+  },
+  {
+    "providerId": 3,
+    "providerName": "Alex Martin",
+    "providerEmail": "alex@skillswap.com",
+    "providerImage": "https://i.postimg.cc/Y9Qf8t1v/alex-martin.jpg",
+    "expertise": "Music & Instruments",
+    "featuredSkill": "Beginner Guitar Lessons",
+    "averageRating": 4.8,
+    "totalStudents": 95,
+    "totalReviews": 60,
+    "bio": "Alex has been playing guitar for over 10 years and loves teaching beginners to develop confidence and rhythm through fun practice sessions.",
+    "location": "Dhanmondi, Dhaka"
+  },
+  {
+    "providerId": 4,
+    "providerName": "Naeem Rahman",
+    "providerEmail": "naeem@skillswap.com",
+    "providerImage": "https://i.postimg.cc/fRgWDcPr/naeem-rahman.jpg",
+    "expertise": "Technology & Coding",
+    "featuredSkill": "Introduction to Python Programming",
+    "averageRating": 4.7,
+    "totalStudents": 130,
+    "totalReviews": 89,
+    "bio": "Naeem is a self-taught software engineer with a passion for mentoring beginners in coding and helping them build real-world projects.",
+    "location": "Mohammadpur, Dhaka"
+  },
+  {
+    "providerId": 5,
+    "providerName": "David Kim",
+    "providerEmail": "david@skillswap.com",
+    "providerImage": "https://i.postimg.cc/x1BtNTcV/david-kim.jpg",
+    "expertise": "Photography & Art",
+    "featuredSkill": "Digital Photography Basics",
+    "averageRating": 4.6,
+    "totalStudents": 64,
+    "totalReviews": 38,
+    "bio": "David is a freelance photographer specializing in nature and portrait photography. He helps students capture the perfect shot with any camera.",
+    "location": "Lalmatia, Dhaka"
+  },
+  {
+    "providerId": 6,
+    "providerName": "Sara Hossain",
+    "providerEmail": "sara@skillswap.com",
+    "providerImage": "https://i.postimg.cc/QMKD9zVC/sara-hossain.jpg",
+    "expertise": "Language & Communication",
+    "featuredSkill": "Spoken English Practice",
+    "averageRating": 4.6,
+    "totalStudents": 110,
+    "totalReviews": 73,
+    "bio": "Sara is a certified ESL instructor who has helped hundreds of learners speak English with confidence through interactive conversations.",
+    "location": "Banani, Dhaka"
+  }
+]

@@ -1,0 +1,290 @@
+[
+  {
+    "skillId": 1,
+    "skillName": "Beginner Guitar Lessons",
+    "providerName": "Alex Martin",
+    "providerEmail": "alex@skillswap.com",
+    "providerImage": "https://i.postimg.cc/Y9Qf8t1v/alex-martin.jpg",
+    "price": 20,
+    "rating": 4.8,
+    "slotsAvailable": 3,
+    "description": "Learn the basics of acoustic guitar including chords, strumming, and popular songs in a friendly and fun environment.",
+    "image": "https://i.postimg.cc/1XbmsvVH/guitar-lesson.jpg",
+    "category": "Music",
+    "location": "Dhanmondi, Dhaka",
+    "availability": "Mon, Wed, Fri - 5:00 PM to 7:00 PM",
+    "reviews": [
+      {
+        "user": "Rahim Uddin",
+        "comment": "Alex is super patient and helpful! I can now play my first song.",
+        "rating": 5,
+        "image": "https://i.postimg.cc/3RwS2XCd/reviewer1.jpg"
+      },
+      {
+        "user": "Sadia Noor",
+        "comment": "Loved the session! Easy to follow and fun.",
+        "rating": 4.8,
+        "image": "https://i.postimg.cc/FKhkhjkt/reviewer2.jpg"
+      }
+    ]
+  },
+  {
+    "skillId": 2,
+    "skillName": "Advanced Piano Techniques",
+    "providerName": "Liam Rahman",
+    "providerEmail": "liam@skillswap.com",
+    "providerImage": "https://i.postimg.cc/vmPZhT9p/liam-rahman.jpg",
+    "price": 25,
+    "rating": 4.9,
+    "slotsAvailable": 2,
+    "description": "Master advanced piano pieces and refine your techniques with one-on-one guidance from an experienced pianist.",
+    "image": "https://i.postimg.cc/wxnR62pw/piano-lesson.jpg",
+    "category": "Music",
+    "location": "Gulshan, Dhaka",
+    "availability": "Sat, Sun - 4:00 PM to 6:00 PM",
+    "reviews": [
+      {
+        "user": "Aminul Haque",
+        "comment": "Liam’s lessons are very detailed and inspiring.",
+        "rating": 4.9,
+        "image": "https://i.postimg.cc/Ls5p7fMH/reviewer5.jpg"
+      }
+    ]
+  },
+  {
+    "skillId": 3,
+    "skillName": "Spoken English Practice",
+    "providerName": "Sara Hossain",
+    "providerEmail": "sara@skillswap.com",
+    "providerImage": "https://i.postimg.cc/QMKD9zVC/sara-hossain.jpg",
+    "price": 10,
+    "rating": 4.6,
+    "slotsAvailable": 5,
+    "description": "Improve your spoken English through real-life conversations and pronunciation guidance for non-native speakers.",
+    "image": "https://i.postimg.cc/x1nCCFFJ/speaking-english.jpg",
+    "category": "Language",
+    "location": "Banani, Dhaka",
+    "availability": "Tue, Thu - 6:00 PM to 8:00 PM",
+    "reviews": [
+      {
+        "user": "Jahid Hasan",
+        "comment": "Sara made learning English really enjoyable.",
+        "rating": 4.7,
+        "image": "https://i.postimg.cc/wTyz1Q5F/reviewer3.jpg"
+      },
+      {
+        "user": "Mitu Akter",
+        "comment": "Good sessions, helped with my confidence.",
+        "rating": 4.5,
+        "image": "https://i.postimg.cc/Y96NfTKM/reviewer4.jpg"
+      }
+    ]
+  },
+  {
+    "skillId": 4,
+    "skillName": "Japanese Language for Beginners",
+    "providerName": "Hiro Tanaka",
+    "providerEmail": "hiro@skillswap.com",
+    "providerImage": "https://i.postimg.cc/c1dYpRkS/hiro-tanaka.jpg",
+    "price": 15,
+    "rating": 4.7,
+    "slotsAvailable": 4,
+    "description": "Start speaking and understanding basic Japanese phrases with interactive lessons and cultural insights.",
+    "image": "https://i.postimg.cc/13v9zRF5/japanese.jpg",
+    "category": "Language",
+    "location": "Uttara, Dhaka",
+    "availability": "Mon, Wed - 7:00 PM to 8:30 PM",
+    "reviews": [
+      {
+        "user": "Nadia Karim",
+        "comment": "Hiro explains things very clearly. Great for beginners!",
+        "rating": 4.8,
+        "image": "https://i.postimg.cc/GpNhNQCy/reviewer6.jpg"
+      }
+    ]
+  },
+  {
+    "skillId": 5,
+    "skillName": "Front-End Web Development Basics",
+    "providerName": "Rafiul Islam",
+    "providerEmail": "rafi@skillswap.com",
+    "providerImage": "https://i.postimg.cc/8cDgJ0Gf/rafiul-islam.jpg",
+    "price": 30,
+    "rating": 4.9,
+    "slotsAvailable": 3,
+    "description": "Learn HTML, CSS, and JavaScript by building your first interactive website step-by-step.",
+    "image": "https://i.postimg.cc/L81qY1HR/coding.jpg",
+    "category": "Technology",
+    "location": "Mirpur, Dhaka",
+    "availability": "Sat, Sun - 3:00 PM to 6:00 PM",
+    "reviews": [
+      {
+        "user": "Tania Ahmed",
+        "comment": "Rafiul is very knowledgeable and explains concepts clearly.",
+        "rating": 5,
+        "image": "https://i.postimg.cc/43Lyz8Vm/reviewer7.jpg"
+      }
+    ]
+  },
+  {
+    "skillId": 6,
+    "skillName": "Python for Data Analysis",
+    "providerName": "Farhana Chowdhury",
+    "providerEmail": "farhana@skillswap.com",
+    "providerImage": "https://i.postimg.cc/LsT3FWdW/farhana-chowdhury.jpg",
+    "price": 35,
+    "rating": 4.8,
+    "slotsAvailable": 2,
+    "description": "Dive into Python programming focused on data handling, visualization, and analytics.",
+    "image": "https://i.postimg.cc/8cm2nwB5/python.jpg",
+    "category": "Technology",
+    "location": "Bashundhara, Dhaka",
+    "availability": "Fri - 5:00 PM to 8:00 PM",
+    "reviews": [
+      {
+        "user": "Hasan Mahmud",
+        "comment": "Helped me land a freelance project! Highly recommended.",
+        "rating": 4.9,
+        "image": "https://i.postimg.cc/zvnZnYf7/reviewer8.jpg"
+      }
+    ]
+  },
+  {
+    "skillId": 7,
+    "skillName": "Hatha Yoga for Beginners",
+    "providerName": "Priya Sarker",
+    "providerEmail": "priya@skillswap.com",
+    "providerImage": "https://i.postimg.cc/hPRz8kJd/priya-sarker.jpg",
+    "price": 15,
+    "rating": 4.7,
+    "slotsAvailable": 5,
+    "description": "Gentle Hatha yoga sessions to improve flexibility, posture, and relaxation.",
+    "image": "https://i.postimg.cc/c412LRB6/yoga.jpg",
+    "category": "Fitness",
+    "location": "Mohammadpur, Dhaka",
+    "availability": "Mon, Wed, Fri - 7:00 AM to 8:00 AM",
+    "reviews": [
+      {
+        "user": "Sumaiya Rahman",
+        "comment": "Loved the calming atmosphere!",
+        "rating": 4.8,
+        "image": "https://i.postimg.cc/mr7dh8xB/reviewer9.jpg"
+      }
+    ]
+  },
+  {
+    "skillId": 8,
+    "skillName": "Home Workout Without Equipment",
+    "providerName": "Kamrul Hasan",
+    "providerEmail": "kamrul@skillswap.com",
+    "providerImage": "https://i.postimg.cc/PrhYxVD5/kamrul-hasan.jpg",
+    "price": 12,
+    "rating": 4.5,
+    "slotsAvailable": 6,
+    "description": "Get fit at home with bodyweight workouts that build strength and endurance.",
+    "image": "https://i.postimg.cc/y8MLccc3/home-workout.jpg",
+    "category": "Fitness",
+    "location": "Online",
+    "availability": "Flexible Schedule",
+    "reviews": [
+      {
+        "user": "Arif Rahman",
+        "comment": "Easy to follow and great for beginners.",
+        "rating": 4.5,
+        "image": "https://i.postimg.cc/Y2KwvJPH/reviewer10.jpg"
+      }
+    ]
+  },
+  {
+    "skillId": 9,
+    "skillName": "Photography Basics with DSLR",
+    "providerName": "Nayeem Khan",
+    "providerEmail": "nayeem@skillswap.com",
+    "providerImage": "https://i.postimg.cc/43nb3RcG/nayeem-khan.jpg",
+    "price": 25,
+    "rating": 4.8,
+    "slotsAvailable": 4,
+    "description": "Master camera settings, lighting, and composition to take stunning photos.",
+    "image": "https://i.postimg.cc/d14RHykH/photography.jpg",
+    "category": "Creative Arts",
+    "location": "Lalmatia, Dhaka",
+    "availability": "Sat - 10:00 AM to 12:00 PM",
+    "reviews": [
+      {
+        "user": "Ritu Das",
+        "comment": "My photography has improved so much!",
+        "rating": 4.9,
+        "image": "https://i.postimg.cc/TwYFDxkb/reviewer11.jpg"
+      }
+    ]
+  },
+  {
+    "skillId": 10,
+    "skillName": "Drawing & Sketching for Beginners",
+    "providerName": "Afsana Tuli",
+    "providerEmail": "afsana@skillswap.com",
+    "providerImage": "https://i.postimg.cc/tgDXX06M/afsana-tuli.jpg",
+    "price": 18,
+    "rating": 4.6,
+    "slotsAvailable": 3,
+    "description": "Learn basic drawing techniques, shading, and perspective in an easy and creative way.",
+    "image": "https://i.postimg.cc/Zqjy4hb6/drawing.jpg",
+    "category": "Creative Arts",
+    "location": "Malibagh, Dhaka",
+    "availability": "Tue, Thu - 4:00 PM to 6:00 PM",
+    "reviews": [
+      {
+        "user": "Fahim Islam",
+        "comment": "Fun and relaxing sessions!",
+        "rating": 4.7,
+        "image": "https://i.postimg.cc/JhVHgkzZ/reviewer12.jpg"
+      }
+    ]
+  },
+  {
+    "skillId": 11,
+    "skillName": "Home Cooking - Bangladeshi Cuisine",
+    "providerName": "Rehana Begum",
+    "providerEmail": "rehana@skillswap.com",
+    "providerImage": "https://i.postimg.cc/P5H1DNxG/rehana-begum.jpg",
+    "price": 15,
+    "rating": 4.8,
+    "slotsAvailable": 5,
+    "description": "Cook traditional Bangladeshi dishes like biryani, korma, and bhuna with simple step-by-step guidance.",
+    "image": "https://i.postimg.cc/tCCRGV1P/bangladesi-cooking.jpg",
+    "category": "Culinary",
+    "location": "Khilgaon, Dhaka",
+    "availability": "Wed, Fri - 3:00 PM to 5:00 PM",
+    "reviews": [
+      {
+        "user": "Anika Zaman",
+        "comment": "I can now cook biryani perfectly!",
+        "rating": 5,
+        "image": "https://i.postimg.cc/8c8dLLtR/reviewer13.jpg"
+      }
+    ]
+  },
+  {
+    "skillId": 12,
+    "skillName": "Baking Essentials - Cakes & Cookies",
+    "providerName": "Samiha Rahim",
+    "providerEmail": "samiha@skillswap.com",
+    "providerImage": "https://i.postimg.cc/Rhq4p3Gm/samiha-rahim.jpg",
+    "price": 20,
+    "rating": 4.7,
+    "slotsAvailable": 3,
+    "description": "Learn to bake delicious cakes and cookies from scratch using simple ingredients.",
+    "image": "https://i.postimg.cc/Xv5wbPZf/baking.jpg",
+    "category": "Culinary",
+    "location": "Online",
+    "availability": "Flexible Timing",
+    "reviews": [
+      {
+        "user": "Mina Khatun",
+        "comment": "Now I bake for my family every weekend!",
+        "rating": 4.8,
+        "image": "https://i.postimg.cc/Y0CPDWxv/reviewer14.jpg"
+      }
+    ]
+  }
+]
