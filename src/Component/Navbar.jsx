@@ -3,6 +3,7 @@ import React, { use } from "react";
 import { Link, NavLink } from "react-router";
 import { AuthContext } from "../Provider/AuthProvider";
 import toast from "react-hot-toast";
+import logoImg from '../assets/logo.png'
 
 const Navbar = () => {
   const { user, logOut } = use(AuthContext);
@@ -29,7 +30,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="bg-base-100">
+    <div className="bg-base-200">
       <div className="navbar w-11/12 mx-auto ">
         <div className="navbar-start">
           <div className="dropdown">
@@ -58,7 +59,7 @@ const Navbar = () => {
             </ul>
           </div>
           <Link to="/" className="btn btn-ghost text-xl">
-            daisyUI
+            <img src={logoImg} alt="" className="w-60" />
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
@@ -82,16 +83,16 @@ const Navbar = () => {
                   {user?.displayName}
                 </span>
               </div>
-              <Link onClick={handleLogOut} to="/" className="btn">
+              <Link onClick={handleLogOut} to="/" className="btn bg-secondary text-base-100 px-10">
                 Logout
               </Link>
             </div>
           ) : (
             <div className="flex gap-2">
-              <Link to="/auth/signup" className="btn">
+              <Link to="/auth/signup" className="btn bg-secondary text-base-100 px-10">
                 Signup
               </Link>
-              <Link to="/auth/login" className="btn">
+              <Link to="/auth/login" className="btn bg-secondary text-base-100 px-10">
                 Login
               </Link>
             </div>
