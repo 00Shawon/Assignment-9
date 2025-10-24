@@ -25,8 +25,8 @@ const ResetPassword = () => {
   
   
   return (
-    <div>
-      <form onSubmit={handleForgotPassword} className="card-body w-[33%] mx-auto">
+    <div className="border w-80 mx-auto">
+      <form onSubmit={handleForgotPassword} className="card-body  ">
         <fieldset className="fieldset">
           {/* email field  */}
 

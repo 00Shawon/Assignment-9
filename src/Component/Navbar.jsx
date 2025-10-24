@@ -58,8 +58,8 @@ const Navbar = () => {
               {links}
             </ul>
           </div>
-          <Link to="/" className="btn btn-ghost text-xl">
-            <img src={logoImg} alt="" className="w-60" />
+          <Link to="/" className="text-xl">
+            <img src={logoImg} alt="" className="md:w-60 w-48 " />
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
@@ -70,7 +70,7 @@ const Navbar = () => {
             <div className="flex items-center gap-5">
               <div className="relative group inline-block">
                 <img
-                  className="w-12 h-12 rounded-full cursor-pointer"
+                  className="w-8 h-8 md:w-12 md:h-12 rounded-full cursor-pointer"
                   src={user && user.photoURL}
                   alt={user?.displayName}
                 />
@@ -83,7 +83,7 @@ const Navbar = () => {
                   {user?.displayName}
                 </span>
               </div>
-              <Link onClick={handleLogOut} to="/" className="btn bg-secondary text-base-100 px-10">
+              <Link onClick={handleLogOut} to="/" className="btn bg-secondary text-base-100 md:px-10 px-5">
                 Logout
               </Link>
             </div>

@@ -19,11 +19,11 @@ import Loading from '../Pages/Loading';
 const Router = createBrowserRouter([
   {
     path:'/',
-    Component: MainLayout,
+    element: <MainLayout></MainLayout>,
      children:[
           {
             index: true,
-            Component:Home,
+            element:<Home></Home>,
           },
           {
             path:'myProfile',
@@ -32,19 +32,21 @@ const Router = createBrowserRouter([
           },
           {
             path:'editProfile',
-            Component: EditProfile,
+            element: <EditProfile></EditProfile>,
           },
           {
             path:'about',
-            Component:About ,
+            elementt:<About></About> ,
           },
           {
             path:'bookSession',
-            Component:BookSession,
+            element:<BookSession></BookSession>,
           },
           {
             path:'viewDetails/:id',
-            element:<PrivateRoute><ViewDetails></ViewDetails></PrivateRoute>,
+            element:<PrivateRoute>
+              <ViewDetails/>
+              </PrivateRoute>,
             loader: () => fetch('/skills2.json'),
             hydrateFallbackElement:<Loading></Loading>
           },
@@ -52,7 +54,7 @@ const Router = createBrowserRouter([
   },
   {
     path:'auth',
-    Component: AuthLayout,
+    element: <AuthLayout></AuthLayout>,
     children:[
       {
         path:'login',
@@ -71,7 +73,7 @@ const Router = createBrowserRouter([
   },
   {
     path:'/*',
-    Component: Error,
+    element: <Error></Error>,
   },
 ])
 

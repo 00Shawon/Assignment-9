@@ -41,10 +41,10 @@ const Skill = ({skill}) => {
         </div>
 
         <div className="absolute right-4 top-4 flex flex-col items-end gap-2">
-          <span className="badge badge-primary badge-lg">${price}</span>
+         
           <div className="flex items-center gap-1 bg-white/90 px-2 py-1 rounded-md">
-            <Star className="w-4 h-4 text-yellow-500" />
-            <span className="text-sm font-medium">{rating}</span>
+            <Star className="w-4 h-4 text-orange-500" />
+            <span className="text-sm font-medium ">{rating}</span>
           </div>
         </div>
       </div>
@@ -58,13 +58,9 @@ const Skill = ({skill}) => {
               <div className="text-xs opacity-80">{category}</div>
             </div>
           </div>
-
-          <div className="text-sm text-success font-semibold">{slotsAvailable} slots</div>
+ <span className="pb-2 font-bold text-orange-500 ">${price}</span>
         </div>
 
-        <div className="mt-3 text-sm text-neutral/85 leading-relaxed line-clamp-3">
-          {skill.description}
-        </div>
 
         <div className="mt-4 flex items-center justify-between">
           <div className="flex items-center gap-3 text-sm text-neutral">
@@ -77,7 +73,7 @@ const Skill = ({skill}) => {
 
           <Link to={`/viewDetails/${skill.skillId}`}
             
-            className="btn btn-primary btn-sm rounded-full px-4"
+            className="btn btn-primary btn-sm rounded px-4 "
            >
             View Details
           </Link>

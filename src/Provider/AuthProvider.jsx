@@ -20,7 +20,7 @@ export const AuthContext = createContext();
 
 const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
-  const [loading, setLoading] = useState(true)
+  const [loading, setLoading] = useState(true);
   // email-password sign in
 
   const createUser = (email, password) => {
@@ -64,7 +64,7 @@ const updateUser = (updateData) =>{
   const unsubscribe = onAuthStateChanged(auth, (currentUser)=>{
     // console.log(currentUser)
     setUser(currentUser)
-    setLoading[false]
+    setLoading(false);
   })
   return()=> unsubscribe();
  },[])
@@ -82,7 +82,8 @@ const updateUser = (updateData) =>{
     logOut,
     resetPassword,
     updateUser,
-    loading
+    loading,
+    setLoading
   };
 
   return <AuthContext value={authData}>{children}</AuthContext>;

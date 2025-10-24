@@ -2,18 +2,20 @@ import React from 'react';
 
 import Navbar from '../Component/Navbar';
 import Footer from '../Component/Footer';
-import { Outlet } from 'react-router';
+import { Outlet, useNavigate } from 'react-router';
+import Loading from '../Pages/Loading';
 
 
 
 const MainLayout = () => {
+  const { state } = useNavigate();
   return (
     <div className=''>
       <nav className=''>
         <Navbar></Navbar>
       </nav>
-      <main>
-        <Outlet></Outlet>
+      <main className='h-screen'>
+        {state=='loading' ? <Loading></Loading> : <Outlet></Outlet>}
       </main>
       <footer>
         <Footer></Footer>
