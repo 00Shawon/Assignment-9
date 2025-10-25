@@ -1,10 +1,15 @@
 import React from "react";
+import creative from '../assets/creative.jpg'
+import fitness from '../assets/fitness.jpg'
+import culinary from '../assets/cooking.jpg'
+import music from '../assets/music.jpg'
+import tech from '../assets/technology.jpg'
 
 const Header = () => {
   return (
     <div className="carousel  h-[500px] rounded-2xl mb-2 ">
       <div id="slide1" className="carousel-item relative w-full">
-        <img src="/src/assets/creative.jpg" className="w-full object-cover" />
+        <img src={creative} className="w-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-l from-black/80 via-black/0 to-black/80" />
 
         <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
@@ -21,7 +26,7 @@ const Header = () => {
         </div>
       </div>
       <div id="slide2" className="carousel-item relative w-full">
-        <img src="/src/assets/Fitness.jpg" className="w-full object-cover" />
+        <img src={fitness} className="w-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-l from-black/80 via-black/0 to-black/80" />
 
         <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
@@ -37,7 +42,7 @@ const Header = () => {
         </div>
       </div>
       <div id="slide3" className="carousel-item relative w-full">
-        <img src="/src/assets/cooking.jpg" className="w-full object-cover" />
+        <img src={culinary} className="w-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-l from-black/80 via-black/0 to-black/80" />
 
         <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
@@ -53,7 +58,7 @@ const Header = () => {
         </div>
       </div>
       <div id="slide4" className="carousel-item relative w-full">
-        <img src="/src/assets/music.jpg" className="w-full object-cover" />
+        <img src={music} className="w-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-l from-black/80 via-black/30 to-black/80" />
 
         <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
@@ -69,7 +74,7 @@ const Header = () => {
         </div>
       </div>
       <div id="slide5" className="carousel-item relative w-full">
-        <img src="/src/assets/technology.jpg" className="w-full object-cover" />
+        <img src={tech} className="w-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-l from-black/50 via-black/0 to-black/50" />
 
         <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">

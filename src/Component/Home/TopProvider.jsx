@@ -1,6 +1,9 @@
 import { Star } from 'lucide-react';
 import React from 'react';
 import { IoStarSharp } from 'react-icons/io5';
+import chef from '../../assets/jopopz-tallorin-Rny5u2JwahI-unsplash.jpg'
+import Photographer from '../../assets/prince-akachi-4Yv84VgQkRM-unsplash.jpg'
+import Yoga from '../../assets/alonso-reyes-B2GdRGjEC2I-unsplash.jpg'
 
 const TopProvider = () => {
   return (  
@@ -12,8 +15,8 @@ const TopProvider = () => {
 <div className="card bg-base-100  max-w-[400px] h-[450px] shadow-sm ">
   <figure className='relative'>
     <img className='object-cover '
-      src="/src/assets/jopopz-tallorin-Rny5u2JwahI-unsplash.jpg"
-      alt="Shoes" />
+      src={chef}
+      alt="Chef" />
   </figure>
   <div className="card-body">
     <h2 className="card-title">
@@ -30,8 +33,8 @@ const TopProvider = () => {
 <div className="card bg-base-100  max-w-[400px] h-[450px] shadow-sm ">
   <figure className='relative'>
     <img className='object-cover '
-      src="/src/assets/prince-akachi-4Yv84VgQkRM-unsplash.jpg"
-      alt="Shoes" />
+      src={Photographer}
+      alt="Photographer" />
   </figure>
   <div className="card-body">
     <h2 className="card-title">
@@ -48,8 +51,8 @@ const TopProvider = () => {
 <div className="card bg-base-100  max-w-[400px] h-[450px] shadow-sm ">
   <figure className='relative'>
     <img className='object-cover '
-      src="/src/assets/alonso-reyes-B2GdRGjEC2I-unsplash.jpg"
-      alt="Shoes" />
+      src={Yoga}
+      alt="Yoga Teacher" />
   </figure>
   <div className="card-body">
     <h2 className="card-title">
