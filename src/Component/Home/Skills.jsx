@@ -9,7 +9,7 @@ const Skills = () => {
   return ( 
     
  <div className='container mx-auto'>
-     <h1 className='font-bold text-3xl py-6'>Popular skills</h1>
+     <h1 className='w-[250px] font-bold text-3xl py-6 bg-gradient-to-r from-secondary to-accent bg-clip-text text-transparent '>Popular skills</h1>
     <div className='grid grid-cols-1 md:grid-cols-3 gap-10 my-10'>
    
 
