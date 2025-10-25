@@ -31,9 +31,7 @@ const ViewDetails = () => {
                 <p className="mt-2 text-sm md:text-base max-w-prose">{data.description}</p>
               </div>
             </div>
-            <button className="absolute top-4 right-4 btn btn-sm btn-primary gap-2 shadow-lg">
-              <Play size={16} /> Preview
-            </button>
+            
           </div>
 
           <div className="p-6 md:p-8">
@@ -61,37 +59,16 @@ const ViewDetails = () => {
               </div>
             </div>
 
-            <hr className="my-6" />
+      
 
-            <h3 className="font-semibold mb-3">What you'll get</h3>
-            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm text-slate-600">
-              <li className="flex items-start gap-3">
-                <div className="w-2 h-2 bg-primary rounded-full mt-2" />
-                Structured 30–45 min bodyweight workouts
-              </li>
-              <li className="flex items-start gap-3">
-                <div className="w-2 h-2 bg-primary rounded-full mt-2" />
-                Progressions for all fitness levels
-              </li>
-              <li className="flex items-start gap-3">
-                <div className="w-2 h-2 bg-primary rounded-full mt-2" />
-                Mobility & recovery guidance
-              </li>
-              <li className="flex items-start gap-3">
-                <div className="w-2 h-2 bg-primary rounded-full mt-2" />
-                Flexible schedule & recorded sessions
-              </li>
-            </ul>
+           
 
             <div className="mt-6 grid gap-4 sm:grid-cols-2">
               <Link to='/bookSession' className="btn btn-primary w-full">Book a session</Link>
               <button className="btn btn-outline w-full">Contact instructor</button>
             </div>
 
-            <div className="mt-8">
-              <h4 className="font-semibold">Testimonials</h4>
-             
-            </div>
+          
           </div>
         </section>
 

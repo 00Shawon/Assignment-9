@@ -9,7 +9,7 @@ const TopProvider = () => {
   return (  
     
     <div className='container mx-auto my-15'>
-      <h2 className='font-bold text-3xl py-3'>Top Provider</h2>
+      <h2 className='w-[250px] font-bold text-3xl py-3 gradient'>Top Provider</h2>
     <div className='mt-5 grid grid-cols-1 md:grid-cols-3 gap-5'>
   
 <div className="card bg-base-100  max-w-[400px] h-[450px] shadow-sm ">

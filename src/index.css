@@ -26,3 +26,6 @@ a.active{
 .hover{
   @apply hover:bg-base-200 hover:text-secondary hover:border-secondary
 }
+.gradient{
+  @apply bg-gradient-to-r from-secondary to-accent bg-clip-text text-transparent
+}
