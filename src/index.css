@@ -22,3 +22,7 @@
 a.active{
   text-decoration: underline;
 }
+
+.hover{
+  @apply hover:bg-base-200 hover:text-secondary hover:border-secondary
+}

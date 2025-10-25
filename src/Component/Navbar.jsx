@@ -77,16 +77,16 @@ const Navbar = () => {
                 />
            
               </div>
-              <Link onClick={handleLogOut} to="/" className="btn bg-secondary text-base-100 md:px-10 px-5">
+              <Link onClick={handleLogOut} to="/" className="btn bg-secondary text-base-100 md:px-10 px-5 hover">
                 Logout
               </Link>
             </div>
           ) : (
             <div className="flex gap-2">
-              <Link to="/auth/signup" className="btn btn-outline btn-secondary px-10">
+              <Link to="/auth/signup" className="btn btn-outline btn-secondary md:px-10">
                 Signup
               </Link>
-              <Link to="/auth/login" className="btn bg-secondary text-base-100 px-10">
+              <Link to="/auth/login" className="btn bg-secondary text-base-100 md:px-10 hover">
                 Login
               </Link>
             </div>

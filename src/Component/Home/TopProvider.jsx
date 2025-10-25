@@ -23,7 +23,7 @@ const TopProvider = () => {
       Culinary Arts
       <div className="rounded-4xl px-2 flex items-center border border-yellow text-[#ff9100]   absolute top-3 right-2"> 4.9  <IoStarSharp /></div>
     </h2>
-    <p>an Italian-born home chef, teaches authentic recipes passed down through generations, making every class a cultural delight.</p>
+    <p>Rohomot is a Bangladeshi-born home chef, teaches traditional recipes passed down through generations, making every class a cultural delight.</p>
     <div className="card-actions justify-end">
       <div className=" rounded-md bg-blue-500 px-2.5 py-0.5 text-white">Rohomot Ali</div>
       <div className="badge badge-outline">Products</div>
@@ -41,9 +41,9 @@ const TopProvider = () => {
      Photography
       <div className="rounded-4xl px-2 flex items-center border border-yellow text-[#ff9100]  absolute top-3 right-2"> 4.9  <IoStarSharp /></div>
     </h2>
-    <p>an Italian-born home chef, teaches authentic recipes passed down through generations, making every class a cultural delight.</p>
+    <p>Nayeem is a freelance photographer specializing in nature and portrait photography. He helps students capture the perfect shot with any camera.</p>
     <div className="card-actions justify-end items-center">
-      <div className=" rounded-md bg-blue-500 px-2.5 py-0.5 text-white">Karamot Ali</div>
+      <div className=" rounded-md bg-blue-500 px-2.5 py-0.5 text-white">Nayeem Khan</div>
       <div className="badge badge-outline">View Course</div>
     </div>
   </div>

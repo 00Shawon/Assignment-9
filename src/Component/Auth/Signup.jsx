@@ -133,8 +133,8 @@ const Signup = () => {
      </button>
               </fieldset>
               {error && <p className="text-red-500">{error}</p>}
-               <p>
-              Already have an account? <Link className="font-semibold text-accent hover:underline" to="/auth/login">Login</Link>
+               <p className="text-center">
+              Already have an account? <Link className="font-semibold text-primary hover:underline" to="/auth/login">Login</Link>
             </p>
             </form>
           </div>

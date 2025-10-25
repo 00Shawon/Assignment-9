@@ -112,8 +112,8 @@ const Login = () => {
      Login with Google
      </button>
               </fieldset>
-              <p>
-                Don't have an account? <Link className="font-semibold text-accent hover:underline" to="/auth/signup">Signup</Link>
+              <p className="text-center">
+                Don't have an account? <Link className="font-semibold text-primary hover:underline" to="/auth/signup">Signup</Link>
               </p>
             </form>
           </div>
