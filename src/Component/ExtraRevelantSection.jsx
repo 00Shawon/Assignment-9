@@ -2,7 +2,7 @@ import React from 'react';
 
 const ExtraRevelantSection = () => {
   return (
-<div class="relative h-[300px] w-full rounded-2xl overflow-hidden shadow-lg bg-center bg-cover bg-no-repeat bg-[url(https://i.ibb.co.com/4g9h3P3V/lucas-k-w-QLAGv4-OYs-unsplash.jpg)]">
+<div class="relative my-10 h-[300px] w-full rounded-2xl overflow-hidden shadow-lg bg-center bg-cover bg-no-repeat bg-[url(https://i.ibb.co.com/4g9h3P3V/lucas-k-w-QLAGv4-OYs-unsplash.jpg)]">
  
   <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-black/50"></div>
 

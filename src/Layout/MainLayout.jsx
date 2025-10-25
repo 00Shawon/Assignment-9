@@ -14,7 +14,7 @@ const MainLayout = () => {
       <nav className=''>
         <Navbar></Navbar>
       </nav>
-      <main className='h-screen'>
+      <main className=''>
         {state=='loading' ? <Loading></Loading> : <Outlet></Outlet>}
       </main>
       <footer>

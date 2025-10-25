@@ -58,8 +58,8 @@ const Signup = () => {
 
   return (
     <div className="">
-          <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xll">
-            <h1 className="text-2xl font-bold">Signup to create account</h1>
+          <div className="card bg-base-100 w-[400px] mx-auto shadow-2xl">
+            <h1 className="text-2xl p-5 font-bold text-center">Signup to create account</h1>
             <form onSubmit={handleSignUp} className="card-body">
               <fieldset className="fieldset">
                 {/* Name field  */}
@@ -107,7 +107,7 @@ const Signup = () => {
                     placeholder="Password"
                     required
                   />
-                  <span className="absolute top-3 right-2 cursor-pointer" onClick={handleShow}>{show? <FiEyeOff size={18}></FiEyeOff>:<FiEye   size={18}></FiEye>}</span>
+                  <span className="absolute top-3 right-12 cursor-pointer" onClick={handleShow}>{show? <FiEyeOff size={18}></FiEyeOff>:<FiEye   size={18}></FiEye>}</span>
                 </div>
                 <button type="submit" className="btn btn-neutral mt-4">
                   Signup

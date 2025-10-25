@@ -57,13 +57,14 @@ const Login = () => {
 
   return (
     <div>
-      <div className="hero bg-base-200 min-h-screen">
+      <div className="hero bg-base-200 ">
         <div className="hero-content flex-col ">
-          <div className="text-center lg:text-left">
+        
+          <div className="card bg-base-100 w-full p-5 shadow-2xl">
+              <div className="text-center ">
             <h1 className="text-2xl font-bold">Login to your account</h1>
           </div>
-          <div className="card bg-base-100 w-full shadow-2xl">
-            <form onSubmit={handleSignin} className="card-body">
+            <form onSubmit={handleSignin} className="card-body w-[400px]">
               <fieldset className="fieldset">
                 {/* email field  */}
 
@@ -88,7 +89,7 @@ const Login = () => {
                     placeholder="Password"
                     required
                   />
-                  <span className="absolute top-3 right-2" onClick={handleShow}>
+                  <span className="absolute top-3 right-12" onClick={handleShow}>
                     {show ? (
                       <FiEyeOff size={18}></FiEyeOff>
                     ) : (

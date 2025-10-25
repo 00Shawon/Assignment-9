@@ -73,15 +73,9 @@ const Navbar = () => {
                   className="w-8 h-8 md:w-12 md:h-12 rounded-full cursor-pointer"
                   src={user && user.photoURL}
                   alt={user?.displayName}
+                  title={user?.displayName}
                 />
-                <span
-                  className="absolute top-full left-1/2 -translate-x-1/2 mt-2
-           bg-gray-800 text-white text-sm px-3 py-1 rounded-md opacity-0 
-           group-hover:opacity-100 transition-opacity duration-300
-           whitespace-nowrap z-10"
-                >
-                  {user?.displayName}
-                </span>
+           
               </div>
               <Link onClick={handleLogOut} to="/" className="btn bg-secondary text-base-100 md:px-10 px-5">
                 Logout
@@ -89,9 +83,9 @@ const Navbar = () => {
             </div>
           ) : (
             <div className="flex gap-2">
-              <Link to="/auth/signup" className="btn bg-secondary text-base-100 px-10">
+              {/* <Link to="/auth/signup" className="btn bg-secondary text-base-100 px-10">
                 Signup
-              </Link>
+              </Link> */}
               <Link to="/auth/login" className="btn bg-secondary text-base-100 px-10">
                 Login
               </Link>

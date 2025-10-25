@@ -5,12 +5,14 @@ import TopProvider from "../Component/Home/TopProvider";
 import HowItWorks from "../Component/Home/HowItWorks";
 import { RiseLoader } from "react-spinners";
 import ExtraRevelantSection from "../Component/ExtraRevelantSection";
+import Footer from "../Component/Footer";
 
 const Home = () => {
   return (
-    <div className="w-11/12 mx-auto">
+   <div>
+     <div className="w-11/12 mx-auto">
       <Header></Header>
-      <div className="">
+      <div>
         <Suspense fallback={<RiseLoader />}>
           <Skills></Skills>
         </Suspense>
@@ -20,6 +22,8 @@ const Home = () => {
       <HowItWorks></HowItWorks>
       <ExtraRevelantSection></ExtraRevelantSection>
     </div>
+   
+   </div>
   );
 };
 
