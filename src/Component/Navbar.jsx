@@ -71,7 +71,7 @@ const Navbar = () => {
               <div className="relative group inline-block">
                 <img
                   className="w-8 h-8 md:w-12 md:h-12 rounded-full cursor-pointer"
-                  src={user && user.photoURL}
+                  src={user && user?.photoURL}
                   alt={user?.displayName}
                   title={user?.displayName}
                 />
@@ -83,9 +83,9 @@ const Navbar = () => {
             </div>
           ) : (
             <div className="flex gap-2">
-              {/* <Link to="/auth/signup" className="btn bg-secondary text-base-100 px-10">
+              <Link to="/auth/signup" className="btn btn-outline btn-secondary px-10">
                 Signup
-              </Link> */}
+              </Link>
               <Link to="/auth/login" className="btn bg-secondary text-base-100 px-10">
                 Login
               </Link>
