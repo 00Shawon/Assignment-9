@@ -1,5 +1,25 @@
 # React + Vite
 
+Project Name: Skill-Swap
+Project Live Link: https://skill-swap-01.netlify.app/
+
+This is a project to create a platform where people can exchange skill. Share with those who requires it aslo earn with it. 
+
+Features:
+1.Best Trainer
+2. Best Courses
+3. Learn exclusively
+4. Mobile fast design
+5. Better user experience
+
+The package i have used in the project:
+1. React Router
+2. Tailwind.css
+3. DaisyUi
+4. React Hot toast
+5. React Icons
+6. Animate.css
+7. Aos
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
